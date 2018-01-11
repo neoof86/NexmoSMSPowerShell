@@ -1,0 +1,9 @@
+<variables>
+<ApiKey>SetMe</ApiKey>
+<APISecret>SetMe</APISecret>
+<SMSFrom>ChangeMe</SMSFrom>
+<CountryCode>SetMe</CountryCode>
+<ADServer>SetMe</ADServer>
+<SearchBase>SetMe</SearchBase>
+<HelpInfo>To use this application run the PowerShell Script in the following way .\ScriptName.ps1 'ADGroupName' 'Your text here' 'WhoItsFrom' you can ommit the from if you have set this in the config file. If you are not aware of the group then enter \ScriptName.ps1 searchgroup and this will then ask your for the search term. from here select the data between the first CN=GroupName, just copy GroupName. Need help find the Search String DN user the searchuser at the end of the script and copy from the end up to the DC or OU that you wish to search from e.g. OU=MyUsers,DC=Domain,DC=Local	Some Characters not showing this is because the system prefers UTF8, we suggest you covert your text here first http://www.url-encode-decode.com/ </HelpInfo>
+</variables>
